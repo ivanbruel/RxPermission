@@ -83,4 +83,10 @@ Pod::Spec.new do |s|
     ss.dependency 'RxPermission/Core'
     ss.dependency 'Permission/MediaLibrary'
   end
+
+  s.subspec 'UserNotifications' do |ss|
+    ss.dependency 'RxPermission/Core'
+    ss.dependency 'Permission/UserNotifications'
+  end
+
 end
